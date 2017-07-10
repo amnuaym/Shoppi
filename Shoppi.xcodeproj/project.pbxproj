@@ -17,6 +17,7 @@
 		8F532EAC1F135E5900741E52 /* ShoppiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F532EAB1F135E5900741E52 /* ShoppiTests.swift */; };
 		8F532EB71F135E5A00741E52 /* ShoppiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F532EB61F135E5A00741E52 /* ShoppiUITests.swift */; };
 		8F532EC51F135E7500741E52 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8F532EC41F135E7400741E52 /* GoogleService-Info.plist */; };
+		8F8CB4211F13AB7400DF8205 /* AllListsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F8CB4201F13AB7400DF8205 /* AllListsViewController.swift */; };
 		B8F1FAE5C708EE9D2CC82A15 /* Pods_ShoppiUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19A38F1AE5FEB27AC1661029 /* Pods_ShoppiUITests.framework */; };
 		D973B7F401AF0BD4F386FF32 /* Pods_Shoppi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E0EC7944415A4BC2E5BDA8A /* Pods_Shoppi.framework */; };
 /* End PBXBuildFile section */
@@ -62,6 +63,7 @@
 		8F532EB61F135E5A00741E52 /* ShoppiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppiUITests.swift; sourceTree = "<group>"; };
 		8F532EB81F135E5A00741E52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8F532EC41F135E7400741E52 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../Users/amnuay/Desktop/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		8F8CB4201F13AB7400DF8205 /* AllListsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllListsViewController.swift; sourceTree = "<group>"; };
 		9356052EBCD8AAF9EE78D438 /* Pods-Shoppi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Shoppi.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Shoppi/Pods-Shoppi.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -132,6 +134,7 @@
 			isa = PBXGroup;
 			children = (
 				8F532E931F135E5700741E52 /* AppDelegate.swift */,
+				8F8CB4201F13AB7400DF8205 /* AllListsViewController.swift */,
 				8F532E951F135E5700741E52 /* ViewController.swift */,
 				8F532E971F135E5700741E52 /* Main.storyboard */,
 				8F532E9D1F135E5800741E52 /* Assets.xcassets */,
@@ -452,6 +455,7 @@
 			files = (
 				8F532E961F135E5700741E52 /* ViewController.swift in Sources */,
 				8F532E9C1F135E5800741E52 /* Shoppi.xcdatamodeld in Sources */,
+				8F8CB4211F13AB7400DF8205 /* AllListsViewController.swift in Sources */,
 				8F532E941F135E5700741E52 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
